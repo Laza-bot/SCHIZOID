@@ -1,11 +1,11 @@
 # SCHIZOID
 A short psychological horror game about paranoia, identity, and office lights that hum at 3:17 AM.
 
-![Screenshot](Screen2.png)
-*The final interrogation.*
-
 ![Screenshot](Screen1.png)
 *The conference room – or is it?*
+
+![Screenshot](Screen2.png)
+*The final interrogation.*
 
 
 ## 🎮 Play the game
