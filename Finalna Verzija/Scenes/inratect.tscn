@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cbgmdg6g8ef8l"]
+
+[ext_resource type="Script" uid="uid://cm8cvu1di86pm" path="res://inratect.gd" id="1_p1hu4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ug7ta"]
+size = Vector3(3.478363, 6.122864, 0.31750488)
+
+[node name="Inratect" type="Node3D" unique_id=1988044369]
+script = ExtResource("1_p1hu4")
+
+[node name="Iteract" type="Area3D" parent="." unique_id=1509503871]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Iteract" unique_id=1214976442]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2296295, 2.561432, 0.34124756)
+shape = SubResource("BoxShape3D_ug7ta")
+
+[connection signal="input_event" from="Iteract" to="." method="_on_iteract_input_event"]

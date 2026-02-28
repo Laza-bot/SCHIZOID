@@ -1,0 +1,126 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://chlqbxdnvgdao"
+path="res://.godot/imported/low_poly_office.glb-546b904bf5864c134b8777a4d2c1d478.scn"
+
+[deps]
+
+source_file="res://Scenes/low_poly_office.glb"
+dest_files=["res://.godot/imported/low_poly_office.glb-546b904bf5864c134b8777a4d2c1d478.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"meshes": {
+"Sketchfab_Scene_archivio_corpo_drawer1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/drugiormar.res",
+"save_to_file/path": "uid://cqw0e3i148jm0"
+},
+"Sketchfab_Scene_bookcase_bookcase1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/ormar.res",
+"save_to_file/path": "uid://b87028g2tmlyw"
+},
+"Sketchfab_Scene_lato1_desk_sides_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://daska.res",
+"save_to_file/path": "uid://cnce8l10n70b4"
+},
+"Sketchfab_Scene_pCylinder26_lamp_glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/lampa.res",
+"save_to_file/path": "uid://bv5nk3mtiny5c"
+},
+"Sketchfab_Scene_pSphere1_lamp_bulb_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/svetlo.res",
+"save_to_file/path": "uid://diii88rquq77s"
+},
+"Sketchfab_Scene_portapenne1_desk_glasses_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/casa.res",
+"save_to_file/path": "uid://duh6hjff8001p"
+},
+"Sketchfab_Scene_sedia_gambe2_chair_legs_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/stolicanozice.res",
+"save_to_file/path": "uid://dmdsagjx2uy4a"
+},
+"Sketchfab_Scene_sedia_seduta_chair_plastic_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/stolicadva.res",
+"save_to_file/path": "uid://c7jiy6si2j4bn"
+},
+"Sketchfab_Scene_zampe3_desk_legs_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/nogazasto.res",
+"save_to_file/path": "uid://bx8bswnmivv57"
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1

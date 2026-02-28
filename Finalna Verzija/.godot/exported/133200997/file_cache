@@ -1,0 +1,16 @@
+res://Materials/Blue.tres::679a302c221e60023ce256ffebc4355a::1754254718::res://.godot/exported/133200997/export-181eb9ba1d481cfe19040b39443d7ecb-Blue.res
+res://Materials/Green.tres::74545ea65531eb55f2f9be809cba0cc8::1772279618::res://.godot/exported/133200997/export-777b77f2a979405ed5f9c95abd8d1b7d-Green.res
+res://Materials/Pink.tres::3ab358cf37c694047e0e82dfed12d631::1754254718::res://.godot/exported/133200997/export-4c2c8a1b85d1b0c9eb08e1890568f740-Pink.res
+res://Materials/Red.tres::1cdd15f74ba77f9148f517fb2c655e0f::1754254718::res://.godot/exported/133200997/export-7c3c6fc40b16f25bf19df7039bbcd17f-Red.res
+res://Scenes/day_1.tscn::d517f7037fe693bc084c9728510095af::1772304846::res://.godot/exported/133200997/export-b618fd51bd83550867a7d78814e8ba5b-day_1.scn
+res://Scenes/day_2.tscn::f8ed497f7516d102a8e503c27546ea6d::1772305064::res://.godot/exported/133200997/export-2f87a126b2c5414666283700894235f3-day_2.scn
+res://Scenes/day_3.tscn::3c9ce0bcfdbc3d4260cb69a565d716a8::1772305062::res://.godot/exported/133200997/export-2fa6af0687f9fed256e998be63ba3d3a-day_3.scn
+res://Scenes/Dialog.tscn::bde0d3974c493ee270b9680a55906f06::1772290834::res://.godot/exported/133200997/export-23c0a2e2383ce9aeaf58dd6bc75e40de-Dialog.scn
+res://Scenes/Door.tscn::c37e36098cb5b5cd27b42a70b987cb79::1772298510::res://.godot/exported/133200997/export-16c19e13bae9122e4174b547de2fe155-Door.scn
+res://Scenes/EndScreen.tscn::202c030c6a4f4e0d982a823d8e743e94::1772303256::res://.godot/exported/133200997/export-0cb0da920d58a9bf6aa496dbb7dd07b6-EndScreen.scn
+res://Scenes/inratect.tscn::aacec70dce667f6df5abaea01fb6a5a9::1772294314::res://.godot/exported/133200997/export-88f97c705c114edf77f5b05e60d1e2e5-inratect.scn
+res://Scenes/Tampalte.tscn::a7f8a6c5f511fa7221226a090d7395e6::1772304478::res://.godot/exported/133200997/export-5754b10e8900454e953e4a3bb21423f4-Tampalte.scn
+res://Scenes/Transition.tscn::842bc3041031f376f6ced9781447cf6c::1772302376::res://.godot/exported/133200997/export-73144784594ce0b2ace8221ea84bdc5d-Transition.scn
+res://Scenes/Women_Talking_Npc.tscn::eafb4c744f3794622d1f5aad70fbe899::1772299842::res://.godot/exported/133200997/export-c91c3344351a361c407fd687998676ae-Women_Talking_Npc.scn
+res://Scenes/World.tscn::346329e5dc80394d463ad739f68369f5::1772290570::res://.godot/exported/133200997/export-a7039bbd18786b4499c98d2e8ae6919d-World.scn
+res://Scripts/Man_Talking_1.tscn::f96d8393af78bc77e71ee2bca0dd962e::1772300494::res://.godot/exported/133200997/export-92b10b6cc5623d403b9587dc7998543b-Man_Talking_1.scn

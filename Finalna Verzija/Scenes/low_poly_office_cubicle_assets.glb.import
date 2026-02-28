@@ -1,0 +1,180 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://bqtrcyiv42kuu"
+path="res://.godot/imported/low_poly_office_cubicle_assets.glb-1a6cb576cb4318757b722cc4da393398.scn"
+
+[deps]
+
+source_file="res://Scenes/low_poly_office_cubicle_assets.glb"
+dest_files=["res://.godot/imported/low_poly_office_cubicle_assets.glb-1a6cb576cb4318757b722cc4da393398.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"meshes": {
+"Sketchfab_Scene_Carpetimg_carpet_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/tepih.res",
+"save_to_file/path": "uid://dqr0ge47xphk3"
+},
+"Sketchfab_Scene_Coffee Cup_Coffee Cup_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/kafa.res",
+"save_to_file/path": "uid://cjwgtrl6i4md2"
+},
+"Sketchfab_Scene_Computer Monitor_PC Monitor amd Keyboard_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/monitor.res",
+"save_to_file/path": "uid://c2ja2n11ka4k1"
+},
+"Sketchfab_Scene_Corkboard_Corkboard_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/tabla.res",
+"save_to_file/path": "uid://icq2ubh6iqfu"
+},
+"Sketchfab_Scene_Cubicle Desk_Desk_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/sto.res",
+"save_to_file/path": "uid://drqr5rdlf0ftr"
+},
+"Sketchfab_Scene_Cubicle_Cubicle Wall_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/cubicle.res",
+"save_to_file/path": "uid://cudto7goqwyyc"
+},
+"Sketchfab_Scene_Keyboard_PC Monitor amd Keyboard_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/keyboard.res",
+"save_to_file/path": "uid://c2rm7xpbdwjsa"
+},
+"Sketchfab_Scene_PC Tower_PC Tower and Mouse_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/pc.res",
+"save_to_file/path": "uid://d4k8wdutk1kk4"
+},
+"Sketchfab_Scene_Panasonic VHS TV_Panasonic VHS TV _0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/tv.res",
+"save_to_file/path": "uid://ocx2f07rumgt"
+},
+"Sketchfab_Scene_Shelf_Desk_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/drvo.res",
+"save_to_file/path": "uid://c1852lcdgsbih"
+},
+"Sketchfab_Scene_Sticky Note 1_Pin Board_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/beleska.res",
+"save_to_file/path": "uid://c4b523div2bfq"
+},
+"Sketchfab_Scene_Trash Cam_Mesh Basket_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/kanta.res",
+"save_to_file/path": "uid://c2lhcyrdvatw6"
+},
+"Sketchfab_Scene_Tray 2_HP 8150N Printer_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/tray.res",
+"save_to_file/path": "uid://fg7ro4cja2d4"
+},
+"Sketchfab_Scene_Water Jug_Water Jug_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/voda.res",
+"save_to_file/path": "uid://cbisufhjj81ai"
+},
+"Sketchfab_Scene_mouse_PC Tower and Mouse_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://mofeli/mis.res",
+"save_to_file/path": "uid://cyjg6gm3wlvyf"
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1

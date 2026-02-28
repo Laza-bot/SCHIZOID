@@ -1,0 +1,148 @@
+[gd_scene format=4 uid="uid://dwlrf6si0uqvp"]
+
+[ext_resource type="Script" uid="uid://7k3jl74782lu" path="res://Scripts/Door.gd" id="1_mw28t"]
+[ext_resource type="Texture2D" uid="uid://c58vlk5wn8t4w" path="res://Scenes/vrata_Image_0.png" id="2_7mbvs"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vslvc"]
+resource_name = "Metal_Doors"
+cull_mode = 2
+albedo_texture = ExtResource("2_7mbvs")
+roughness = 0.80404085
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_moi88"]
+_surfaces = [{
+"aabb": AABB(-0.5359726, -0.0986886, -1.2926834, 1.0719509, 0.19737434, 1.9975631),
+"format": 34896613377,
+"index_count": 132,
+"index_data": PackedByteArray("EAALAAMAEQADAAsAEAASAAsAEgARAAsADAASABAAEQATAAMACgAQAAMACgADABMADwAMABAADwAQAAoADAAOABIADgAMAA8ADgAPAA0ADQAPAAoADgAJABIADgANAAkADQAKAAkAEgAJABEABAAKABMACQAKAAQAFAATABEACQAUABEAFAAVABMABAATABUACQAIABQACQAEAAgACAAAABQAAAAVABQAAAACABUACAAWAAAAFgACAAAAFwAVAAIAFgAXAAIAFwAEABUABQAXABYABgAWAAgABgAFABYABgAIAAQABQABABcABgABAAUAAQAEABcABgAEAAcAAQAHAAQABgAHAAEA"),
+"lods": [0.0004634729, PackedByteArray("AAABAAIAAAACAAMAAQAEAAIABAADAAIABQABAAAABgABAAUABgAFAAAABgAHAAEAAQAHAAQABgAEAAcABgAIAAQABgAAAAgACQAEAAgACQAIAAAABAAKAAMACQAKAAQAAAADAAsACwAJAAAADAALAAMADQAKAAkADgAJAAsADgANAAkADAAOAAsADQAPAAoADwADAAoADgAPAA0ADwAMAAMADgAMAA8A")],
+"name": "Metal_Doors",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("////////AAD//wAAAAAAAP//AAD//wAAAAAAAP//AACj5AAA/vAAAP////8AAAAAo+T//wAAAACj5AAAAAAAAKPk///+8AAAWxv///7wAABbGwAA/vAAAAAA/////wAAAAAAAAAAAABbG///AAAAAAAA//8AAAAAWxsAAAAAAAAAAAAA/vAAAFsb/////wAAAAD///7wAABbGwAA//8AAKPk/////wAAo+QAAP//AAD//////vAAAP//AAD+8AAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_bqtrp"]
+resource_name = "vrata_Metal Doorframe_002_001_Metal Doors_0"
+_surfaces = [{
+"aabb": AABB(-0.5359726, -0.0986886, -1.2926834, 1.0719509, 0.19737434, 1.9975631),
+"attribute_data": PackedByteArray("JJoL6HaWmAZ2lgvoJJqYBt65XQNpvV0Dab1dA965XQM0mkJQIJdi0TSaYtEgl0JQlZZdA/WbXQP1m10DlZZdA2m9XQNTuFbpab0V/965XQOVlhX/9ZtW6fWbXQOVll0DlZYV//WbVulpvRX/lZZdA/WbXQNTuFbp3rldA2m9XQN2lpgGJJoL6HaWC+gkmpgGALVwIROzVtcAtVbXE7NwIbyw2yiss3l7vLB5e6yz2ygAtXAhE7NW1xOzcCEAtVbXdpbV2iSa1dpTuBX/ab1W6fWbFf+VllbpJJrV2naW1dr1mxX/lZZW6VO4Ff9pvVbpNJqVwyCXlcM0mg5eIJcOXiSa1dp2ltXa"),
+"format": 34896613399,
+"index_count": 132,
+"index_data": PackedByteArray("MAAhACIAMAAxACEAHQAaADIAHQAzABoAHgAzAB0AHgAfADMAGQAdADIAGQAyADQANQAZADQANQA0ABgAGwAZADUAGwAcABkANgACAAAANgA3AAIAAwA3ADYAAwABADcAFQAUADgAFQA5ABQAFgA5ABUAFgAXADkAEQAVADgAEQA4ADoAOwARADoAOwA6ABIAEAARADsAEAATABEABAAFAAYABAAHAAUAPAAJAAoAPAA9AAkAPgA9ADwAPgA/AD0ACAA/AD4ACAALAD8ADAANAA4ADAAPAA0AIABAAEEAIAAjAEAAJAAlACYAJAAnACUAKAApACoAKAArACkALAAtAC4ALAAvAC0A"),
+"lods": [0.0004634729, PackedByteArray("AAABAAIAAwABAAAABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAEQAUABIAEQAVABQAFgAUABUAFgAXABQAGAAZABoAGwAZABgAGwAcABkAGQAdABoAHgAaAB0AHgAfABoAIAAhACIAIAAjACEAJAAlACYAJAAnACUAKAApACoAKAArACkALAAtAC4ALAAvAC0A")],
+"material": SubResource("StandardMaterial3D_vslvc"),
+"name": "Metal_Doors",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 66,
+"vertex_data": PackedByteArray("////////qir//wAAAACqKv//AAD//6oq/////wAAqiqj5P//AAD/////AAAAAP///////wAA//+j5AAAAAD///////////8/AAAAAP///z8AAP//////P///AAD///8/AAD//wAA//9bGwAAAAD//1sb//8AAP//AAAAAAAA/////wAAAAD/P6PkAAD+8P8///8AAP///z+j5AAAAAD/PwAAAAD///8/WxsAAP7w/z9bGwAAAAD/PwAAAAAAAP8/AAD//////79bG////vD/v/////////+/AAD//wAA/79bG///AAD/v6Pk///+8P+/o+T//wAA/7//////AAD/vwAAAAAAAFTVAAD/////VNUAAAAA//9U1QAA//8AAFTVWxv//wAAqipbGwAA/vCqKlsb///+8KoqWxsAAAAAqipbG////vD//6PkAAD+8P//o+T///7w//9bGwAA/vD//6Pk//8AAFTVo+QAAP7wVNWj5AAAAABU1aPk///+8FTVAAAAAP7wVNUAAP///vBU1aPk//////+///////7w/79bG///////vwAA///+8P+///////7wqir//wAA/vCqKlsbAAD///8/AAAAAP7w/z+j5AAA////P///AAD+8P8/Wxv//////z9bGwAA////P6Pk//////8/o+QAAP///z8AAP///vBU1QAAAAD+8FTVqiqqKqoqqiqqKqoqqiqqKv///3////9/////f////3//////////////////////////f////3////9/////fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/////f////3////9/////f////3////9/////f////39U1VTVVNVU1VTVVNVU1VTVqiqqKqoqqiqqKqoqqiqqKv8//7//P/+//z//v/8//79U1VTVVNVU1VTVVNVU1VTVVNVU1VTVVNX///9/////f////3////9/qiqqKqoqqioAAP9/AAD/fwAA/38AAP9//////////////////////1TVVNVU1VTV")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_moi88")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_l46ap"]
+_surfaces = [{
+"aabb": AABB(-0.8669224, -0.051698685, -0.9410852, 0.8712616, 0.10339737, 1.8821704),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAACAAEAAwAEAAEABQAAAAIAAwAAAAUABAAGAAIABQACAAYAAwAHAAQAAwAFAAcABwAGAAQABwAFAAYA"),
+"name": "Metal_Doors",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAAAAAAAAAP////8AAAAAAAD//wAAAAD//wAAAAD///////8AAP//AAAAAAAA//8AAP//AAD/////AAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_d33oq"]
+resource_name = "vrata_Metal Door_005_Metal Doors_0"
+_surfaces = [{
+"aabb": AABB(-0.8669224, -0.051698685, -0.9410852, 0.8712616, 0.10339737, 1.8821704),
+"attribute_data": PackedByteArray("wq+tLLa26NvCr+jbtratLGWcqQT4t5LoZZyS6N63PAO2tq0swq/o27a26NvCr60s3rc8A2Wckuj4t5LoZZypBGWctLL4t15I+Le0smWcXkiotrXK0K9IeNCvtcqotkh4"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUA"),
+"material": SubResource("StandardMaterial3D_vslvc"),
+"name": "Metal_Doors",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAAAAVNUAAP////9U1QAAAAD//1TVAAD//wAAVNUAAP//AAD/v/////////+/AAD//////7//////AAD/v/////8AAKoq//8AAP//qir///////+qKv//AAAAAKoq//8AAAAA/z8AAAAA////P///AAD///8/AAAAAAAA/z8AAP//AAD/////AAAAAP///////wAA//8AAAAAAAD///////////5/AAAAAP///n8AAP/////+f///AAD///5/VNVU1VTVVNVU1VTVVNVU1cP+nYCF/zyA////f0z+2ICqKqoqqiqqKqoqqiqqKqoqngA9gTwAeYAAAP9/2gC0gf///3////9/////f////3//f////3////9/////f///")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_l46ap")
+
+[sub_resource type="Animation" id="Animation_38ogf"]
+resource_name = "Close"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("DoorCollider/Metal Door_005_Metal Doors_0:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(1.5707964, -1.9676843, 0), Vector3(1.5707964, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_bgsld"]
+resource_name = "Open"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("DoorCollider/Metal Door_005_Metal Doors_0:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(1.5707964, 0, 0), Vector3(1.5707964, -1.9676843, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_g50tm"]
+length = 0.001
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vxo0x"]
+_data = {
+&"Close": SubResource("Animation_38ogf"),
+&"Open": SubResource("Animation_bgsld"),
+&"RESET": SubResource("Animation_g50tm")
+}
+
+[node name="vrata" type="Node3D" unique_id=1425448798]
+
+[node name="Metal Door_005" type="Node3D" parent="." unique_id=1601046263]
+transform = Transform3D(5.079936, 0.04071194, 1.779575e-09, 0, -2.2205822e-07, 5.0800996, 0.040711947, -5.0799365, -2.2205107e-07, 1.961998, 4.8936515, -0.7881546)
+
+[node name="Circle_003" type="Node3D" parent="Metal Door_005" unique_id=835368868]
+transform = Transform3D(1, 0, -1.3877788e-16, -9.313226e-10, 1, 0, 0, 0, 1, -0.78429914, 0.044412374, -0.03587979)
+
+[node name="Metal Doorframe_002_001" type="Node3D" parent="." unique_id=1082662169]
+transform = Transform3D(5.0800996, 0, 0, 0, -1.8167852e-06, 5.0800996, 0, -5.0800996, -1.8167852e-06, -0.10670471, 6.6798058, -0.57022285)
+
+[node name="Metal Doorframe_002_001_Metal Doors_0" type="MeshInstance3D" parent="Metal Doorframe_002_001" unique_id=767504000]
+transform = Transform3D(1, 0, 0, 0, 1, -1.7053026e-13, 0, 1.7053026e-13, 1, 0, -0.08268547, 1.1920929e-07)
+mesh = SubResource("ArrayMesh_bqtrp")
+skeleton = NodePath("")
+
+[node name="DoorCollider" type="CSGBox3D" parent="." unique_id=1572028291]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1394043, 4.9672737, -0.19736886)
+transparency = 1.0
+use_collision = true
+size = Vector3(4.4487305, 9.635803, 0.6713867)
+script = ExtResource("1_mw28t")
+
+[node name="Metal Door_005_Metal Doors_0" type="MeshInstance3D" parent="DoorCollider" unique_id=564331785]
+transform = Transform3D(5.080098, 0, 0, 0, -2.2205815e-07, -5.080099, 0, 5.080098, -2.2205819e-07, 2.0853052, -0.027338982, 0.19736886)
+mesh = SubResource("ArrayMesh_d33oq")
+skeleton = NodePath("")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DoorCollider/Metal Door_005_Metal Doors_0" unique_id=1393334632]
+root_node = NodePath("../../..")
+libraries/ = SubResource("AnimationLibrary_vxo0x")

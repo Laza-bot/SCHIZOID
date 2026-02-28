@@ -1,0 +1,132 @@
+[gd_scene format=3 uid="uid://db2h3t17k37pe"]
+
+[ext_resource type="Script" uid="uid://dk0y5hr3sqlqs" path="res://Scripts/Player.gd" id="1_1d73w"]
+[ext_resource type="Script" uid="uid://barnu475aw84" path="res://Scripts/Main.gd" id="1_kn06e"]
+[ext_resource type="Material" uid="uid://bi1h4xe7msjwi" path="res://Materials/Pink.tres" id="3_irgfk"]
+[ext_resource type="Texture2D" uid="uid://s2krgsqk3vtt" path="res://Scenes/viber_image_2026-02-28_12-48-02-907.png" id="4_45d1s"]
+[ext_resource type="Material" uid="uid://b122sws3pt7w7" path="res://Materials/Red.tres" id="4_nuwel"]
+[ext_resource type="Material" uid="uid://p2nkjd3ge3qm" path="res://Materials/Blue.tres" id="5_te4rd"]
+[ext_resource type="Texture2D" uid="uid://ur8jijciupgd" path="res://ELR_Corsshairs.png" id="6_45d1s"]
+[ext_resource type="PackedScene" uid="uid://botc7yilqo64c" path="res://Scenes/jjdaf.blend" id="7_y7y61"]
+[ext_resource type="PackedScene" uid="uid://c8kxph3bdxljn" path="res://Scenes/jjdaf.glb" id="8_q2d71"]
+[ext_resource type="PackedScene" uid="uid://da3hutj0ga05s" path="res://Scripts/Walking.fbx" id="9_uo7di"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y7y61"]
+albedo_texture = ExtResource("4_45d1s")
+uv1_scale = Vector3(10, 10, 10)
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_5lq0h"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_f6bkd"]
+sky_material = SubResource("ProceduralSkyMaterial_5lq0h")
+
+[sub_resource type="Environment" id="Environment_g2h84"]
+background_mode = 2
+sky = SubResource("Sky_f6bkd")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_xc2g5"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_wydro"]
+
+[node name="World" type="Node3D" unique_id=1534356103]
+script = ExtResource("1_kn06e")
+
+[node name="Map" type="Node3D" parent="." unique_id=213963982]
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Map" unique_id=1795936137]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -29.5653)
+material_override = ExtResource("3_irgfk")
+use_collision = true
+size = Vector3(52.4636, 5.83948, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="Map" unique_id=625941000]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 29.3824)
+use_collision = true
+size = Vector3(52.4636, 5.83948, 1)
+material = ExtResource("3_irgfk")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="Map" unique_id=449570920]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -26, 0, 0.382374)
+material_override = ExtResource("3_irgfk")
+use_collision = true
+size = Vector3(60, 5.83948, 1)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="Map" unique_id=1716098834]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 26, 0, 0.382374)
+material_override = ExtResource("3_irgfk")
+use_collision = true
+size = Vector3(60, 5.83948, 1)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="Map" unique_id=955429007]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 12, -2, 0.382374)
+material_override = ExtResource("4_nuwel")
+use_collision = true
+size = Vector3(4, 5.83948, 4)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="Map" unique_id=985051768]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 12, 0, -5.61763)
+material_override = ExtResource("5_te4rd")
+use_collision = true
+size = Vector3(4, 5.83948, 4)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="Map" unique_id=1918734467]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 12, 0, -12.6176)
+material_override = ExtResource("4_nuwel")
+use_collision = true
+size = Vector3(4, 8, 4)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Map" unique_id=167810352]
+material_override = SubResource("StandardMaterial3D_y7y61")
+use_collision = true
+size = Vector3(52.2363, 0.002, 59.575)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Map" unique_id=181313952]
+environment = SubResource("Environment_g2h84")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Map" unique_id=1132196749]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Player" type="CharacterBody3D" parent="." unique_id=548621864]
+script = ExtResource("1_1d73w")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Player" unique_id=912832112]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+mesh = SubResource("CapsuleMesh_xc2g5")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player" unique_id=1853501821]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_wydro")
+
+[node name="Head" type="Node3D" parent="Player" unique_id=1737506650]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.67939, 0)
+
+[node name="Camera3D" type="Camera3D" parent="Player/Head" unique_id=895230275]
+
+[node name="TextureRect" type="TextureRect" parent="Player" unique_id=1671197647]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -30.0
+offset_top = 2.0
+offset_right = 10.0
+offset_bottom = 42.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.20446326, 0.19471408)
+texture = ExtResource("6_45d1s")
+
+[node name="jjdaf" parent="." unique_id=830711159 instance=ExtResource("7_y7y61")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.979046, 0, 19.634464)
+
+[node name="jjdaf2" parent="." unique_id=128774902 instance=ExtResource("8_q2d71")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -59.57276, 0.0009994507, 30.705524)
+
+[node name="Walking" parent="." unique_id=436983747 instance=ExtResource("9_uo7di")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -8.728463, 1.5019217, 9.447179)

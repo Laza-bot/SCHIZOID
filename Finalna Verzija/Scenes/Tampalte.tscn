@@ -1,0 +1,114 @@
+[gd_scene format=3 uid="uid://br66q60ni6jrg"]
+
+[ext_resource type="PackedScene" uid="uid://cgadur40e63bq" path="res://Scripts/Man_Talking_1.tscn" id="1_8b7q4"]
+[ext_resource type="Script" uid="uid://b16fh7s71l8to" path="res://Scripts/NPC.gd" id="2_g3w3x"]
+[ext_resource type="Material" uid="uid://bi1h4xe7msjwi" path="res://Materials/Pink.tres" id="2_ubwcs"]
+[ext_resource type="Texture2D" uid="uid://s2krgsqk3vtt" path="res://Scenes/viber_image_2026-02-28_12-48-02-907.png" id="3_g3w3x"]
+[ext_resource type="Script" uid="uid://dk0y5hr3sqlqs" path="res://Scripts/Player.gd" id="4_7n6mo"]
+[ext_resource type="PackedScene" uid="uid://dwlrf6si0uqvp" path="res://Scenes/Door.tscn" id="6_xegil"]
+[ext_resource type="PackedScene" uid="uid://cr872hsr84vty" path="res://Scenes/Women_Talking_Npc.tscn" id="7_461fb"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mp4b4"]
+albedo_texture = ExtResource("3_g3w3x")
+uv1_scale = Vector3(10, 10, 10)
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_sg3vb"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_f6bkd"]
+sky_material = SubResource("ProceduralSkyMaterial_sg3vb")
+
+[sub_resource type="Environment" id="Environment_filqv"]
+background_mode = 2
+sky = SubResource("Sky_f6bkd")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_88pe7"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_gs4m3"]
+
+[node name="World" type="Node3D" unique_id=2120438175]
+
+[node name="Vilosn1" parent="." unique_id=1659222646 instance=ExtResource("1_8b7q4")]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 8.438764)
+script = ExtResource("2_g3w3x")
+
+[node name="Vilosn2" parent="." unique_id=1276431176 instance=ExtResource("1_8b7q4")]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 2.7322736, 0, 9.954987)
+script = ExtResource("2_g3w3x")
+
+[node name="Hilton1" parent="." unique_id=1184566468 instance=ExtResource("1_8b7q4")]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, -3.381692, 0, 8.438764)
+
+[node name="Hilton2" parent="." unique_id=1042907446 instance=ExtResource("1_8b7q4")]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, -3.381692, 0, 12.901659)
+
+[node name="Map" type="Node3D" parent="." unique_id=1311248759]
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Map" unique_id=496495]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -29.5653)
+material_override = ExtResource("2_ubwcs")
+use_collision = true
+size = Vector3(52.4636, 5.83948, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="Map" unique_id=686794182]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 29.3824)
+use_collision = true
+size = Vector3(52.4636, 5.83948, 1)
+material = ExtResource("2_ubwcs")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="Map" unique_id=1395918449]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -26, 0, 0.382374)
+material_override = ExtResource("2_ubwcs")
+use_collision = true
+size = Vector3(60, 5.83948, 1)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="Map" unique_id=687720351]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 26, 0, 0.382374)
+material_override = ExtResource("2_ubwcs")
+use_collision = true
+size = Vector3(60, 5.83948, 1)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Map" unique_id=1540554679]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.020377636, 0.010625839, -0.0092356205)
+material_override = SubResource("StandardMaterial3D_mp4b4")
+use_collision = true
+size = Vector3(52.2363, 0.002, 59.575)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Map" unique_id=1128962913]
+environment = SubResource("Environment_filqv")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Map" unique_id=679979311]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Player" type="CharacterBody3D" parent="." unique_id=720371911]
+script = ExtResource("4_7n6mo")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Player" unique_id=721195985]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+mesh = SubResource("CapsuleMesh_88pe7")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player" unique_id=797387479]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_gs4m3")
+
+[node name="Head" type="Node3D" parent="Player" unique_id=95633642]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.67939, 0)
+
+[node name="Camera3D" type="Camera3D" parent="Player/Head" unique_id=809982876]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10)
+
+[node name="vrata" parent="." unique_id=1425448798 instance=ExtResource("6_xegil")]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, -4.9790154, 0, -4.6418457)
+
+[node name="vrata2" parent="." unique_id=459722825 instance=ExtResource("6_xegil")]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 2.5834074, 0, -4.6418457)
+
+[node name="Venesa1" parent="." unique_id=1157958547 instance=ExtResource("7_461fb")]
+transform = Transform3D(-4.964392, 0, -0.59565914, 0, 5, 0, 0.59565914, 0, -4.964392, 1.0911007, 0.16643539, 6.027053)
+
+[node name="Venesa2" parent="." unique_id=63635649 instance=ExtResource("7_461fb")]
+transform = Transform3D(-4.964392, 0, -0.59565914, 0, 5, 0, 0.59565914, 0, -4.964392, 4.0689583, 0.16643539, 6.027053)
