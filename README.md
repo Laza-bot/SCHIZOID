@@ -1,10 +1,10 @@
 # SCHIZOID
 A short psychological horror game about paranoia, identity, and office lights that hum at 3:17 AM.
 
-![Office scene](jjdaf.png)
+![Screenshot](jjdaf.png)
 *The conference room – or is it?*
 
-![White room](image.png)
+![Screenshot](image.png)
 *The final interrogation.*
 
 ## 🎮 Play the game
@@ -21,8 +21,6 @@ Full dialogue included – a slowly unraveling schizophrenic episode.
 3. No server needed – it's pure HTML/CSS/JS.
 
 ## 🧠 Credits
-Written by [your name]  
-Art: [describe your images or credit sources]
+Written by [Lazar Tomic, Marko Zrnic and Marko Djordjevic]  
 
-## 📦 Built for itch.io game jams
-This project is a single HTML page with embedded images. Ready to zip and submit.
+## 📦 Built for itch.io game jam
