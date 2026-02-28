@@ -1,11 +1,12 @@
 # SCHIZOID
 A short psychological horror game about paranoia, identity, and office lights that hum at 3:17 AM.
 
-![Screenshot](jjdaf.png)
+![Screenshot](Screen2.png)
+*The final interrogation.*
+
+![Screenshot](Screen1.png)
 *The conference room – or is it?*
 
-![Screenshot](image.png)
-*The final interrogation.*
 
 ## 🎮 Play the game
 👉 **[Play now](https://YOUR_USERNAME.github.io/schizo-game/)** (replace with your actual GitHub Pages URL once it's live)
