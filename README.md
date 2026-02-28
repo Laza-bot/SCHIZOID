@@ -10,7 +10,7 @@ A short psychological horror game about paranoia, identity, and office lights th
 ## The final interrogation.
 
 
-![Screenshot](Screen3.png)
+![Screenshot](Screenshot_3.png)
 ##The conference room – or is it?
 ##
 
