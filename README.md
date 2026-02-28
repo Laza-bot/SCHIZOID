@@ -2,10 +2,10 @@
 A short psychological horror game about paranoia, identity, and office lights that hum at 3:17 AM.
 
 ![Screenshot](Screen1.png)
-*The conference room – or is it?*
+##The conference room – or is it?
 
 ![Screenshot](Screen2.png)
-*The final interrogation.*
+##The final interrogation.
 
 
 ## 🎮 Play the game
