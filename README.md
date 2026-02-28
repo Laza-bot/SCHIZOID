@@ -10,6 +10,11 @@ A short psychological horror game about paranoia, identity, and office lights th
 ## The final interrogation.
 
 
+![Screenshot](Screen3.png)
+##The conference room – or is it?
+##
+
+
 ## 🎮 Play the game
 👉 **[Play now](https://YOUR_USERNAME.github.io/schizo-game/)** (replace with your actual GitHub Pages URL once it's live)
 
